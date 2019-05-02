@@ -10,14 +10,18 @@
     "type": "git",
     "url": "git+https://github.com/Seo-Faper/myApp.git"
   },
-  "author": "",
+  "author": "Seo-Faper",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Seo-Faper/myApp/issues"
   },
   "homepage": "https://github.com/Seo-Faper/myApp#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "date-utils": "^1.2.21",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "mongoose": "^5.5.4",
+    "socket.io":"*"
   },
   "devDependencies": {}
 }
