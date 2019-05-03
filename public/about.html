@@ -15,7 +15,13 @@
     p,h4,h1,a,h2{
         font-family: 'Nanum Myeongjo', serif;
     }
-
+    p{
+      font-size: 18px;
+    }
+    h4{
+      font-style: oblique;
+       font-weight: 700;
+    }
     /* Everything but the jumbotron gets side spacing for mobile first views */
     .header,
     .marketing,
@@ -99,43 +105,47 @@
      <div class="header">
        <nav>
          <ul class="nav nav-pills pull-right">
-           <li role="presentation" class="active"><a href="/">홈</a></li>
+           <li role="presentation"><a href="/">홈</a></li>
            <li role="presentation"><a href="#">로그인</a></li>
            <li role="presentation"><a href="#">회원가입</a></li>
-            <li role="presentation"><a href="about">소개</a></li>
+            <li role="presentation" class="active"><a href="about">소개</a></li>
          </ul>
        </nav>
        <h3 class="text-muted">후렌띠 후라이</h3>
      </div>
-     <br>
-     <div class="jumbotron">
-       <h1>리세마라 서버 <span class="glyphicon glyphicon-signal"></span></h1>
-       <p class="lead">실시간으로 올라오는 리세마라 계정 생성 근황을 확인하세요.</p>
-       <p><a class="btn btn-lg btn-success" href="chat" role="button">생성중인 계정 보기</a></p>
+          <div class="container">
+     <div class="col-lg-12">
+       <h2>  계정거래 과정</h2>
+      <h4> 1)<span class="label label-danger">구매자</span> 원하는 게임과 시작 캐릭터를 선택합니다.</h4>
+      <br>
+      <h4> 2)<span class="label label-danger">구매자</span> 카카오톡 아이디 또는 구글 아이디와 함께 결제를 진행합니다.</h4>
+      <br>
+      <h4> 3)<span class="label label-success">판매자</span> 선택한 계정과 카카오톡 아이디 또는 구글 아이디를 연동합니다.</h4>
+      <br>
+      <h4> 4)<span class="label label-success">판매자</span> 주문 내역을 제외한 모든 제공받은 개인 정보를 삭제합니다. </h4>
+      <br>
+      <h4> 5)<span class="label label-danger">구매자</span>계정을 수령하고 확인합니다.</h4>
+      <br>
      </div>
-     <div class="row marketing">
-       <div class="col-lg-6">
-         <h2>간편 결제</h2>
-        <h4>#프린세스 커넥트! re:Dive <span class="glyphicon glyphicon-signal"></span></h4>
-         <p>리세마라 계정 구매      <a class="btn btn-sm btn-success" href="list" role="button"> 구매 </a></p></p>
-        <h4>#크루세이더 퀘스트<span class="glyphicon glyphicon-signal"></span></h4>
-         <p>리세마라 계정 구매</p>
-       </div>
-       <div class="col-lg-6">
-         <h2>회원 결제</h2>
-         <!--
-         <h4>#게임 이름 1 <span class="glyphicon glyphicon-signal"></span></h4>
-         <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
-
-         <h4>#게임 이름 2 <span class="glyphicon glyphicon-signal"></span></h4>
-         <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
-
-        <h4>#게임 이름 3 <span class="glyphicon glyphicon-signal"></span></h4>
-         <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>-->
-         <p> 공사중
-       </div>
-     </div>
-
+     <h2>  계정거래시 주의 사항</h2>
+    <h4> * 프린세스 커넥트의 경우, 기존의 카카오톡 계정으로 사용중인 계정이 있다면 삭제하는데 24시간이 걸립니다.</h4>
+    <p>즉, 결제를 하고 카카오톡 계정을 연동하려 해도 24시간 뒤에 이루어 집니다.</p>
+    <p> 즉시 계정을 수령하고 싶다면 카카오톡
+      계정이 연결된 프린세스 코넥트 계정을 삭제한지 24시간이 지난 후 신청해 주세요.</p>
+    <br>
+    <h4> * 크루세이더 퀘스트의 경우, 원하는 닉네임으로 생성하기가 거의 불가능 합니다.</h4>
+    <p> 랜덤한 한글또는 영어 뒤에 숫자가 붙습니다. 여기서 숫자는 리세마라한 횟수를 나타냅니다.</p>
+    <p> ex) 에키와이2 , 마루pay11 etc..</p>
+    <p> 이 점 양해 부탁드립니다.</p>
+    <br>
+    <h4> * 한번 연동된 계정은 다시 게스트로 돌아가지 못합니다.</h4>
+    <p> 거래 특성상 환불이 불가능한 구조입니다..;ㅁ;</p>
+    <p> 잘 확인하시고 신청해 주세요. </p>
+    <p> 단, 서버측의 오류나 관리자의 혼동에 의해 구매자가 원하지 않는 계정을 구매한 경우는 환불이 진행됩니다.</p>
+    <p>
+    <br>
+   </div>
+   </div>
      <footer class="footer">
        <p>&copy; Company 2019 Franch Fry </p>
        <div class="col-lg-6">
